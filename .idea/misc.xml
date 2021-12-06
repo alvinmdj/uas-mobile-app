@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Documents/Projects/AndroidStudio/RefriDate_V0.3.0/app/src/main/res/drawable/ic_frame_3.xml" value="0.37864583333333335" />
+        <entry key="..\:/Documents/Projects/AndroidStudio/RefriDate_V0.3.0/app/src/main/res/drawable/ic_frame_4.xml" value="0.37864583333333335" />
+        <entry key="..\:/Documents/Projects/AndroidStudio/RefriDate_V0.3.0/app/src/main/res/drawable/ic_refrigerator.xml" value="0.37864583333333335" />
+        <entry key="..\:/Documents/Projects/AndroidStudio/RefriDate_V0.3.0/app/src/main/res/layout/_activity_login.xml" value="0.3625" />
+        <entry key="..\:/Documents/Projects/AndroidStudio/RefriDate_V0.3.0/app/src/main/res/layout/activity_forgot_password.xml" value="0.33" />
+        <entry key="..\:/Documents/Projects/AndroidStudio/RefriDate_V0.3.0/app/src/main/res/layout/activity_freezer_host.xml" value="0.3625" />
+        <entry key="..\:/Documents/Projects/AndroidStudio/RefriDate_V0.3.0/app/src/main/res/layout/activity_home_screen.xml" value="0.3625" />
+        <entry key="..\:/Documents/Projects/AndroidStudio/RefriDate_V0.3.0/app/src/main/res/layout/activity_login.xml" value="0.3625" />
+        <entry key="..\:/Documents/Projects/AndroidStudio/RefriDate_V0.3.0/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Documents/Projects/AndroidStudio/RefriDate_V0.3.0/app/src/main/res/layout/activity_pendinginbawah_host.xml" value="0.3625" />
+        <entry key="..\:/Documents/Projects/AndroidStudio/RefriDate_V0.3.0/app/src/main/res/layout/activity_register.xml" value="0.3625" />
+        <entry key="..\:/Documents/Projects/AndroidStudio/RefriDate_V0.3.0/app/src/main/res/layout/display_row.xml" value="0.3625" />
+        <entry key="..\:/Documents/Projects/AndroidStudio/RefriDate_V0.3.0/app/src/main/res/layout/fragment_detail.xml" value="0.3625" />
+        <entry key="..\:/Documents/Projects/AndroidStudio/RefriDate_V0.3.0/app/src/main/res/layout/fragment_freezer_add.xml" value="0.3625" />
+        <entry key="..\:/Documents/Projects/AndroidStudio/RefriDate_V0.3.0/app/src/main/res/layout/fragment_freezer_list.xml" value="0.3625" />
+        <entry key="..\:/Documents/Projects/AndroidStudio/RefriDate_V0.3.0/app/src/main/res/layout/fragment_freezer_update.xml" value="0.3625" />
+        <entry key="..\:/Documents/Projects/AndroidStudio/RefriDate_V0.3.0/app/src/main/res/layout/fragment_pendinginbawah_add.xml" value="0.3625" />
+        <entry key="..\:/Documents/Projects/AndroidStudio/RefriDate_V0.3.0/app/src/main/res/layout/fragment_pendinginbawah_list.xml" value="0.3625" />
+        <entry key="..\:/Documents/Projects/AndroidStudio/RefriDate_V0.3.0/app/src/main/res/layout/fragment_pendinginbawah_update.xml" value="0.3625" />
+        <entry key="..\:/Mobile/Java/UMN/RefriDate_V0.3.5/app/src/main/res/layout/fragment_freezer_add.xml" value="0.14764492753623187" />
+        <entry key="..\:/Mobile/Java/UMN/RefriDate_V0.3.5/app/src/main/res/layout/fragment_freezer_update.xml" value="0.14764492753623187" />
+        <entry key="..\:/Mobile/Java/UMN/RefriDate_V0.3.5/app/src/main/res/layout/fragment_pendinginbawah_add.xml" value="0.14764492753623187" />
+        <entry key="..\:/university/semester 5/Mobile Application Programming/Lab/blom finish/RefriDate_V0.3.0/app/src/main/res/layout/activity_home_screen.xml" value="0.18541666666666667" />
+        <entry key="..\:/university/semester 5/Mobile Application Programming/Lab/blom finish/RefriDate_V0.3.0/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/university/semester 5/Mobile Application Programming/Lab/blom finish/RefriDate_V0.3.0/app/src/main/res/layout/activity_main.xml" value="0.1111111111111111" />
+        <entry key="..\:/university/semester 5/Mobile Application Programming/Lab/blom finish/RefriDate_V0.3.0/app/src/main/res/layout/fragment_freezer_update.xml" value="0.178125" />
+        <entry key="..\:/university/semester 5/Mobile Application Programming/Lab/blom finish/RefriDate_V0.3.0/app/src/main/res/layout/fragment_pendinginbawah_add.xml" value="0.1890625" />
+        <entry key="..\:/university/semester 5/Mobile Application Programming/Lab/blom finish/RefriDate_V0.3.0/app/src/main/res/layout/fragment_pendinginbawah_update.xml" value="0.1890625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

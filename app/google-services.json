@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "781881886406",
+    "firebase_url": "https://refridate-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "refridate",
+    "storage_bucket": "refridate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781881886406:android:cd1af1c657cd42425979c7",
+        "android_client_info": {
+          "package_name": "id.ac.umn.refridate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781881886406-t8kcq88jdvdd28d4c8p49sbg9g6d1vb8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.ac.umn.refridate",
+            "certificate_hash": "197012330d1ef40c31caf3395cd466c4e9ed4560"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH52vsWyIFBnwIGixQ5cCkHyBLPZvux00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/freezernav"
+    app:startDestination="@id/listFreezerFragment">
+
+    <fragment
+        android:id="@+id/listFreezerFragment"
+        android:name="id.ac.umn.refridate.fragments.list.ListFreezerFragment"
+        android:label="Freezer List"
+        tools:layout="@layout/fragment_freezer_list" >
+        <action
+            android:id="@+id/action_listFreezerFragment_to_addFreezerFragment"
+            app:destination="@id/addFreezerFragment" />
+        <action
+            android:id="@+id/action_listFreezerFragment_to_updateFreezerFragment"
+            app:destination="@id/updateFreezerFragment" />
+        <action
+            android:id="@+id/action_listFreezerFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFreezerFragment"
+        android:name="id.ac.umn.refridate.fragments.add.AddFreezerFragment"
+        android:label="Add to List"
+        tools:layout="@layout/fragment_freezer_add" >
+        <action
+            android:id="@+id/action_addFreezerFragment_to_listFreezerFragment"
+            app:destination="@id/listFreezerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateFreezerFragment"
+        android:name="id.ac.umn.refridate.fragments.Update.UpdateFreezerFragment"
+        android:label="Update Data"
+        tools:layout="@layout/fragment_freezer_update" >
+        <action
+            android:id="@+id/action_updateFreezerFragment_to_listFreezerFragment"
+            app:destination="@id/listFreezerFragment" />
+        <argument
+            android:name="currItem"
+            app:argType="id.ac.umn.refridate.model.ItemList" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="id.ac.umn.refridate.fragments.detail.detailFragment"
+        android:label="Details"
+        tools:layout="@layout/fragment_detail">
+        <action
+            android:id="@+id/action_detailFragment_to_listFreezerFragment"
+            app:destination="@id/listFreezerFragment" />
+        <argument
+            android:name="currItem"
+            app:argType="id.ac.umn.refridate.model.ItemList" />
+    </fragment>
+</navigation>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pendinginbawahnav"
+    app:startDestination="@id/listPendinginBawahFragment">
+
+    <fragment
+        android:id="@+id/listPendinginBawahFragment"
+        android:name="id.ac.umn.refridate.fragments.list.ListPendinginBawahFragment"
+        android:label="Pendingin Bawah List"
+        tools:layout="@layout/fragment_pendinginbawah_list" >
+        <action
+            android:id="@+id/action_listPendinginBawahFragment_to_detailFragment2"
+            app:destination="@id/detailFragment2" />
+        <action
+            android:id="@+id/action_listPendinginBawahFragment_to_addPendinginBawahFragment"
+            app:destination="@id/addPendinginBawahFragment" />
+        <action
+            android:id="@+id/action_listPendinginBawahFragment_to_updatePendinginBawahFragment"
+            app:destination="@id/updatePendinginBawahFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment2"
+        android:name="id.ac.umn.refridate.fragments.detail.detailFragment"
+        android:label="Details"
+        tools:layout="@layout/fragment_detail">
+        <action
+            android:id="@+id/action_detailFragment2_to_listPendinginBawahFragment"
+            app:destination="@id/listPendinginBawahFragment" />
+        <argument
+            android:name="currItem"
+            app:argType="id.ac.umn.refridate.model.ItemList" />
+    </fragment>
+    <fragment
+        android:id="@+id/addPendinginBawahFragment"
+        android:name="id.ac.umn.refridate.fragments.add.AddPendinginBawahFragment"
+        android:label="Add to List"
+        tools:layout="@layout/fragment_pendinginbawah_add" >
+        <action
+            android:id="@+id/action_addPendinginBawahFragment_to_listPendinginBawahFragment"
+            app:destination="@id/listPendinginBawahFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updatePendinginBawahFragment"
+        android:name="id.ac.umn.refridate.fragments.Update.UpdatePendinginBawahFragment"
+        android:label="Update Data"
+        tools:layout="@layout/fragment_pendinginbawah_update" >
+        <action
+            android:id="@+id/action_updatePendinginBawahFragment_to_listPendinginBawahFragment"
+            app:destination="@id/listPendinginBawahFragment" />
+        <argument
+            android:name="currItem"
+            app:argType="id.ac.umn.refridate.model.ItemList" />
+    </fragment>
+</navigation>

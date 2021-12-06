@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/Home"
+            android:title="@string/title_1" />
+<!--        <item-->
+<!--            android:id="@+id/Backup_Restore"-->
+<!--            android:title="@string/title_2" />-->
+        <item
+            android:id="@+id/Delete_all"
+            android:title="@string/title_3" />
+<!--        <item-->
+<!--            android:id="@+id/Log_Out"-->
+<!--            android:title="@string/title_4" />-->
+    </group>
+</menu>

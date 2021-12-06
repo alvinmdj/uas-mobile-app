@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">RefriDate</string>
+    <string name="foto">Tambah foto</string>
+    <string name="Nama">Nama makanan</string>
+    <string name="Tanggal">Tanggal kadaluarsa</string>
+    <string name="confirm">Add</string>
+    <string name="id">1</string>
+    <string name="Makanan">Makanan 1</string>
+    <string name="Exp">Expire date:</string>
+    <string name="Expdate">20 Oct 2022</string>
+    <string name="gantif">Ganti Foto</string>
+    <string name="Tempat">Tempat</string>
+    <string name="update">Update</string>
+
+    <string name="title_1">Home</string>
+    <string name="title_2">Backup/Restore</string>
+    <string name="title_3">Delete All</string>
+    <string name="dd_mm_yyyy">dd/mm/yyyy</string>
+    <string name="title_4">Log Out</string>
+</resources>
